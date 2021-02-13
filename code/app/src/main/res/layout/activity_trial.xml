@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrialActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="main_activity"
+        android:text="Back to Experiment List" />
+
+    <TextView
+        android:id="@+id/experiment_name"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Name of the experiment"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Total Trial"
+        android:textAlignment="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/total_trial"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="#Total Trial"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Success Rate"
+        android:textAlignment="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/success_rate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="#Success Rate"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Number of Success"
+        android:textAlignment="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/success_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="#Number of Success"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Number of Failure"
+        android:textAlignment="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/fail_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="#Number of failure"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Success" />
+
+    <Button
+        android:id="@+id/fail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Failure" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="88dp" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+</LinearLayout>
