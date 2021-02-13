@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:padding="5dp"
+        android:text="Description"
+        android:textAlignment="center"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Date"
+        android:textAlignment="center"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:text="Total Trial"
+        android:textAlignment="textStart"
+        android:textSize="17sp"
+
+        />
+
+    <TextView
+        android:id="@+id/total_trial_integer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="total trial integer value" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:text="Success Rate"
+        android:textAlignment="textStart"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/success_rate_integer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="success rate integer value" />
+
+</LinearLayout>
